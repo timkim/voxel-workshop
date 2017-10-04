@@ -20,3 +20,5 @@ Well look no further! In this workshop, we will go over how to make models in Ma
 - Google cardboard 
 - PhoneGap Developer App: [iOS App Store](https://itunes.apple.com/app/id843536693) or [Google Play Store](https://itunes.apple.com/app/id843536693)
 - phonegap-magicavoxel-aframe-template
+
+[Learning MagicaVoxel](magicavoxel.md)
