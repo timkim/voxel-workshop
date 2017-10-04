@@ -5,7 +5,7 @@ layout: post
 # What is MagicaVoxel?
 MagicaVoxel is a free 3D modeling software that is designed for ease of use and fun! Everything in MagicaVoxel is built out of cubes or voxels. Think pixel art but in 3D! No worrying about polygons, faces, vertices and textures. Stack your voxels upon another, change their colours, and make something cool!
 
-tldr: building stuff in MagicaVoxel is like building stuff with lego
+_*tldr: building stuff in MagicaVoxel is like building stuff with lego*_
 
 ### Some cool stuff I've personally made:
 ![Cool stuff I've made in MagicaVoxel](img/cool_stuff.png "Cool stuff I've made in MagicaVoxel")
