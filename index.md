@@ -1,5 +1,6 @@
 ---
 title: "Making Voxel Art with MagicaVoxel and Viewing it on your Phone"
+layout: default
 ---
 
 # Introduction
