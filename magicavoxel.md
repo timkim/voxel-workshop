@@ -15,8 +15,8 @@ As far as I can tell, it is made by one person named [@ephtracy](https://twitter
 ## Camera Controls
 To navigate around your model, you'll primarily be using the `right click` button, the `space` key, and the `scroll wheel`. There are also keyboard commands, but I find that using a mouse is more intuitive. 
 
-* _Rotate_: Hold down `right-click` to rotate the camera around. Or use `a` & `d` to rotate side to side and `q` & `e` to rotate up and down. 
-* _Zoom_: Use the `scroll wheel` to zoom in or out. Or use `w` & `s`. 
-* _Pan_: Hold down `space` and `right-click` to move your camera around the scene. Or you can use `scroll-click` to achieve the same effect. 
+* **Rotate:** Hold down `right-click` to rotate the camera around. Or use `a` & `d` to rotate side to side and `q` & `e` to rotate up and down. 
+* **Zoom:** Use the `scroll wheel` to zoom in or out. Or use `w` & `s`. 
+* **Pan:** Hold down `space` and `right-click` to move your camera around the scene. Or you can use `scroll-click` to achieve the same effect. 
 
 
