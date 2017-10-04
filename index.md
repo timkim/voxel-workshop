@@ -1,7 +1,7 @@
 ---
 title: Making Voxel Art with MagicaVoxel and Viewing it on your Phone
-layout: post
 ---
+
 
 # Introduction
 Greetings fellow voxel/mobile enthusiast! Have you been wanting to make 3D art but have been stumped by overly complicated tools and expensive software? Perhaps you are wondering how one can easily make 3D art and view it on your phone? 
