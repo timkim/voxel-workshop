@@ -15,15 +15,22 @@ As far as I can tell, it is made by one person named [@ephtracy](https://twitter
 ## Camera Controls
 To navigate around your model, you'll primarily be using the `right click` button, the `space` key, and the `scroll wheel`. There are also keyboard commands, but I find that using a mouse is more intuitive. 
 
+#### Moving the Camera Around
 * **Rotate:** Hold down `right-click` to rotate the camera around. Or use `a` & `d` to rotate left and right and `q` & `e` to rotate up and down. 
 * **Zoom:** Use the `scroll wheel` to zoom in or out. Or use `w` & `s`. 
 * **Pan:** Hold down `space` and `right-click` to move your camera around the scene. Or you can hold down and use `scroll-click` to achieve the same effect. 
 
-#### Change Camera Modes
+#### Changing Camera Modes
 ![Camera modes](img/camera_mode.png "Camera modes")
 
-For the purpose of this tutorial, we shall keep our camera in `Pers` or **Perspective** mode. However, you can change to `Free` in order to move the camera around like you would in a FPS (WASD controls). Switching to `Orth` or `Iso` switches the camera's projection to be _orthgraphic_ which means parallel lines never visually meet. Use this mode to simulate isometric graphics. 
+For the purpose of this tutorial, we shall keep our camera in `Pers` or **Perspective** mode. However, you can change to `Free` in order to move the camera around like you would in a FPS (WASD controls). Switching to `Orth` or `Iso` switches the camera's projection to be _orthographic_ which means parallel lines never visually meet. Use this mode to simulate isometric graphics. 
 
 To note: exporting your model in `Pers`, `Orth` or `Iso` will not preserve the camera's setting when viewing it in WebVR! To emulate those camera modes, you will need to set that up on the A-Frame/WebVR side!
+
+## Placing Voxels
+![Brushes](img/brushes.png "Brushes")
+
+
+
 
 
