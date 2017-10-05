@@ -27,7 +27,7 @@ For the purpose of this tutorial, we shall keep our camera in `Pers` or **Perspe
 
 To note: exporting your model in `Pers`, `Orth` or `Iso` will not preserve the camera's setting when viewing it in WebVR! To emulate those camera modes, you will need to set that up on the A-Frame/WebVR side!
 
-## Adding/Removing/Painting/Moving Voxels
+## Adding/Removing/Painting Voxels
 ![Brushes](img/brushes.png "Brushes")
 MagicaVoxel offers six tools to help place and remove voxels. With a brush selected, you can **Attach**, **Erase**, or **Paint**. Here's a quick description of each brush starting with the most important ones:
 
@@ -38,7 +38,13 @@ MagicaVoxel offers six tools to help place and remove voxels. With a brush selec
 * **V Voxel Mode:** A brush that allows you to quickly plop down cubes and spheres of a defined size.
 * **L Line Mode:** A brush that allows you to drag and make lines of voxels.
 
-## Selecting Voxels
-![Selecting voxels](img/selection_tool.png "Selecting voxels")
+Pro-tip: When making your models, you may want to consider using the **Mirror** or **Axis** brush modifiers. I personally always mirror on one plane so I don't have to constantly repeat my work. 
 
+## Selecting and Moving Voxels
+![Selecting voxels](img/selection_tool.png "Selecting voxels")
+So you've placed some voxels down and then you realise some are out of place or maybe you've made your model too large or too small. Use these tools to help move and select your voxels around. 
+
+* ![Move Icon](img/move_icon.png "Move Icon"): Use this tool to move selected voxels or the whole model around in the view. To note: your model will wrap around if you try and move parts of it out of bounds. 
+* ![Selection Icon](img/selection_icon.png "Move Icon"): This tool is made for selection voxels. You can select voxels as you would lay them down in Box Brush mode or use the Rect option to select all voxels that fit within a rectangle selection.
+* ![Region Icon](img/region_icon.png "Region Icon"): Much like the selection tool but instead select according to the Face or Volume. Works pretty much like Face Brush mode. 
 
