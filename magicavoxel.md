@@ -31,12 +31,12 @@ To note: exporting your model in `Pers`, `Orth` or `Iso` will not preserve the c
 ![Brushes](img/brushes.png "Brushes")
 MagicaVoxel offers six tools to help place and remove voxels. With a brush selected, you can **Attach**, **Erase**, or **Paint**. Here's a quick description of each brush starting with the most important ones:
 
-* **B Box Mode:** Simply click to start lay down a voxel. Click and drag in a particular direction to lay a sheet of voxel down.
-* **F Face Mode:** Add onto an existing face of a voxel model. Use this tool to add on a sheet of voxels onto an existing face while preserving colours or geometry.
-* **P Pattern Mode:** If you have a model that's saved to another file and also you'd like to stamp clone it into the scene you're working on, use this tool. Make sure to select the **Pattern** on the far right side of the file explorer to select which pattern you want to clone.
-* **C Center Mode:** A brush that lets you draw squares or circles starting from the center.
-* **V Voxel Mode:** A brush that allows you to quickly plop down cubes and spheres of a defined size.
-* **L Line Mode:** A brush that allows you to drag and make lines of voxels.
+* **[B]ox Mode:** Simply click to start lay down a voxel. Click and drag in a particular direction to lay a sheet of voxel down.
+* **[F]ace Mode:** Add onto an existing face of a voxel model. Use this tool to add on a sheet of voxels onto an existing face while preserving colours or geometry.
+* **[P]attern Mode:** Use this tool to stamp other models into your scene. Make sure to select the **Pattern** on the far right side of the file explorer to select which pattern you want to clone.
+* **[C]enter Mode:** A brush that lets you draw squares or circles starting from the center.
+* **[V]oxel Mode:** A brush that allows you to quickly plop down cubes and spheres of a defined size.
+* **[L]ine Mode:** A brush that allows you to drag and make lines of voxels.
 
 Pro-tip: When making your models, you may want to consider using the **Mirror** or **Axis** brush modifiers. I personally always mirror on one plane so I don't have to constantly repeat my work. 
 
