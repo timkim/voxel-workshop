@@ -42,6 +42,7 @@ Pro-tip: When making your models, you may want to consider using the **Mirror** 
 
 ## Selecting and Moving Voxels
 ![Selecting voxels](img/selection_tool.png "Selecting voxels")
+
 So you've placed some voxels down and then you realise some are out of place or maybe you've made your model too large or too small. Use these tools to help move and select your voxels around. 
 
 * ![Move Icon](img/move_icon.png "Move Icon"): Use this tool to move selected voxels or the whole model around in the view. To note: your model will wrap around if you try and move parts of it out of bounds. 
@@ -49,6 +50,8 @@ So you've placed some voxels down and then you realise some are out of place or 
 * ![Region Icon](img/region_icon.png "Region Icon"): Much like the selection tool but instead select according to the Face or Volume. Works pretty much like Face Brush mode. 
 
 ## Colouring Voxels
+![Colouring Voxels](img/colour.png "Colouring Voxels")
+
 As you can see on the left side of the interface, there's a big ole colour palette that you can choose colours from. You can also choose to swap colour palettes by selecting the **0**, **1**, **2**, or **3** buttons. Or you can individually modify any particular colour by selecting it and then using the **HSV** button and using the colour picker there to change a colour.
 
 An interesting thing about the colour palette is that for every voxel that you colour with, the position of that colour in the palette is tied to that voxel. For example, if you use a green colour to make parts of your model but decide that the green is not working, you can just select the green colour in the palette and use the **HSV** sliders to change it to a colour you want. That way, you don't have to worry about selecting all the green voxel individually.
