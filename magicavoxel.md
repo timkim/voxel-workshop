@@ -62,4 +62,12 @@ MagicaVoxel also comes with a few colour selection tools:
 * ![Colour Remover](img/remove_colour.png "Remove Colour"): Select a voxel to remove all voxels of the same colour.
 * ![Replace Colour](img/replace_colour.png "Replace Colour"): Have a colour selected and then select a voxel to replace all voxels of the same colour with the colour you've selected.
 
+## Setting the Size of the Scene
+![Setting the Size of the Scene](img/scene_size.png "Setting the Size of the Scene")
 
+You can manually type in the size of the scene in terms of how many voxel-units it should be. The max is currently 126x126x126. You can also push the **F** button to trim the boundaries of the scene to just the size of the model.
+
+## Exporting your Model
+![Exporting your Model](img/export.png "Exporting your Model")
+
+When it finally comes time to view our model in WebVR. Click on the export button and export as **Obj**. Remember where you save these files as it will generate an _**.obj**_, _**.mtl**_, and a _**.png**_. You will need all three files!
