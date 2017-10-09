@@ -71,3 +71,5 @@ You can manually type in the size of the scene in terms of how many voxel-units 
 ![Exporting your Model](img/export.png "Exporting your Model")
 
 When it finally comes time to view our model in WebVR. Click on the export button and export as **Obj**. Remember where you save these files as it will generate an _**.obj**_, _**.mtl**_, and a _**.png**_. You will need all three files!
+
+[Learning A-Frame](aframe.md)
