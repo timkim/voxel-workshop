@@ -11,7 +11,7 @@ A-Frame is based on top of HTML, making it simple to get started. But A-Frame is
 
 ## Features:
 
-* VR Made Simple: Just drop in a <script> tag and <a-scene>. A-Frame will handle 3D boilerplate, VR setup, and default controls. Nothing to install, no build steps.
+* VR Made Simple: Just drop in a `<script>` tag and `<a-scene>`. A-Frame will handle 3D boilerplate, VR setup, and default controls. Nothing to install, no build steps.
 
 * Declarative HTML: HTML is easy to read, understand, and copy-and-paste. Being based on top of HTML, A-Frame is accessible to everyone: web developers, VR enthusiasts, artists, designers, educators, makers, kids.
 
@@ -23,7 +23,7 @@ A-Frame is based on top of HTML, making it simple to get started. But A-Frame is
 
 * Tool Agnostic: Since the Web was built on the notion of HTML, A-Frame is compatible with most libraries, frameworks, and tools including React, Preact, Vue.js, d3.js, Ember.js, jQuery.
 
-* Visual Inspector: A-Frame provides a handy built-in visual 3D inspector. Open up any A-Frame scene, hit <ctrl> + <alt> + i, and fly around to peek under the hood!
+* Visual Inspector: A-Frame provides a handy built-in visual 3D inspector. Open up any A-Frame scene, hit `<ctrl> + <alt> + i`, and fly around to peek under the hood!
 
+What I personally like about A-Frame is that it really simplifies the process of making WebVR sites. Without A-Frame, you would have to venture into the WebVR land and code scenes using [three.js](https://threejs.org/)or perhaps even just straight up [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API). This might be fine for those who are more well versed in coding 3D, but this is quite a daunting task for those looking to wet their feet. 
 
-What I personally like about A-Frame is that it really simplifies the process of making WebVR sites. Without A-Frame, you would have to venture into the WebVR land and code scenes using [three.js](https://threejs.org/)or perhaps even just straight up [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API). This might be fine for those who are more well versed in 
