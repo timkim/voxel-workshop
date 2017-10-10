@@ -28,3 +28,9 @@ Since A-Frame is all web based, it works pretty well with PhoneGap! Aside from a
 
 In this workshop, we'll clone down the `phonegap-magicavoxel-aframe-template` that has a small premade A-Frame project ready to go. Once your models are ready to be viewed on your phone, we'll import them into the template and then use `phonegap serve` to connect our phones to the A-Frame project. 
 
+## Let's Start Our PhoneGap Project!
+Enough with words, code time now! First things first, let us create our PhoneGap project using a template:
+`$ phonegap create myVoxelProject --template phonegap-magicavoxel-aframe-template`
+
+And if all goes successfully, our PhoneGap project directory structure should look something like:
+![Directory Screenshot](img/directory_screenshot.png "Directory Screenshot")
