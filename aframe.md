@@ -36,14 +36,15 @@ And if all goes successfully, our PhoneGap project directory structure should lo
 ![Directory Screenshot](img/directory_screenshot.png "Directory Screenshot")
 
 Let's open up the `www/index.html` file and see what's going on in there. Take notice of a few things:
+![Code Screenshot](img/code.png "Code Screenshot")
 
 * A large CSP: this is to get A-Frame working within `phonegap serve` - once you start making your own projects, copy this one down to help you get going.
 * Script tags that point to the A-Frame js file and a couple of other files that'll help fill out the scene with some presets
 * `<a-scene>`: notice how all the things within our scene are within this tag? 
 * `<a-asset>`: this tells A-Frame to preload and cache these resources. Really handy when dealing with large files or a large amount of assets.
 * `<a-entity camera position="0 10 25" look-controls>`: this is our scene's camera. Think of it as the lens of which we view the scene through. The position component is where we have placed our camera in the scene. 
-* `<a-entity environment="preset: tron;">`: This is preset world where we are going to place our models in. Looks cool and beats figuring out some of the lighting presets. 
-* `<a-animation>` - this is a neat little visual addition so that we can see our model spin around in the world. Notice how it is a child element of the tron environment. 
+* `<a-entity environment="preset: tron;">`: This is a preset world where we are going to place our models in. Looks cool and beats figuring out some of the lighting presets. 
+* `<a-animation>` - this is a neat little visual addition so that we can see our model spin around in the world. Notice how it is a child element of the tron environment. That means everything placed under the tron enivorment will spin around.  
 * `<a-entity light="type: directional...` - adds a directional light to the scene
 * `<a-entity obj-model="obj: #myModelObj; mtl: #myModelMtl" position="0 0 0" scale="0.3 0.3 0.3"> - this is the actual reference to our model and adding it the scene. Notice how the scale is set to `0.3`. You may have to adjust this depending on the size of your model.
 
