@@ -28,7 +28,7 @@ Since A-Frame is all web based, it works pretty well with PhoneGap! Aside from a
 
 In this workshop, we'll clone down the `phonegap-magicavoxel-aframe-template` that has a small premade A-Frame project ready to go. Once your models are ready to be viewed on your phone, we'll import them into the template and then use `phonegap serve` to connect our phones to the A-Frame project. 
 
-## Let's Start Our PhoneGap Project!
+## Let's Start our PhoneGap Project!
 Enough with words, code time now! First things first, let us create our PhoneGap project using a template:
 `$ phonegap create myVoxelProject --template phonegap-magicavoxel-aframe-template`
 
@@ -46,6 +46,35 @@ Let's open up the `www/index.html` file and see what's going on in there. Take n
 * `<a-entity environment="preset: tron;">`: This is a preset world where we are going to place our models in. Looks cool and beats figuring out some of the lighting presets. 
 * `<a-animation>` - this is a neat little visual addition so that we can see our model spin around in the world. Notice how it is a child element of the tron environment. That means everything placed under the tron enivorment will spin around.  
 * `<a-entity light="type: directional...` - adds a directional light to the scene
-* `<a-entity obj-model="obj: #myModelObj; mtl: #myModelMtl" position="0 0 0" scale="0.3 0.3 0.3"> - this is the actual reference to our model and adding it the scene. Notice how the scale is set to `0.3`. You may have to adjust this depending on the size of your model.
+* `<a-entity obj-model="obj: #myModelObj; mtl: #myModelMtl" position="0 0 0" scale="0.3 0.3 0.3">` - this is the actual reference to our model and adding it the scene. Notice how the scale is set to `0.3`. You may have to adjust this depending on the size of your model.
+
+## Placing your Model into the Scene
+When you exported your `.obj`, `.mtl` and `.png` files from MagicaVoxel, make sure to place them into the `www/models/`. Then simply change the reference in `index.html` to match the file names of your model. 
+```
+<a-assets>
+    <a-asset-item id="myModelObj" src="models/vans.obj"></a-asset-item>
+    <a-asset-item id="myModelMtl" src="models/vans.mtl"></a-asset-item>
+</a-assets>
+```
+
+## Viewing your Model on your Browser
+Now let's see if everything is working ok. `cd` into your PhoneGap project's directory and type `phonegap serve`. This should start up a server that will broadcast an ip address for your laptop and phone to connect to. It should look something like this:
+```
+$ phonegap serve
+[phonegap] starting app server...
+[phonegap] listening on 10.58.143.112:3000
+[phonegap] listening on 169.254.196.197:3000
+[phonegap] 
+[phonegap] ctrl-c to stop the server
+[phonegap] 
+```
+
+Copy and paste the address where the server is listening into your browser. If all goes well, you should see your model rotating in the scene. 
+
+### Troubleshooting
+* If the model appears all white, then you need to make sure you copied over that `.png` file into your `www/models/`. 
+* If the model doesn't appear at all, use the A-Frame inspector to see if it actually exists in the scene. It might be too large or too small for you to see so you may need to scale the model accordingly. 
+
+
 
 
