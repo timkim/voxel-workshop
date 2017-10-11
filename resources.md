@@ -12,8 +12,6 @@ This workshop was primarily built on this doc: [https://aframe.io/docs/0.7.0/gui
 
 ## Inspiration 
 Try checking out these voxel artists. 
-
-On Twitter:
 * https://twitter.com/y2bcrazy
 * https://twitter.com/Noxbird
 * https://twitter.com/HuntingFluff
@@ -23,8 +21,8 @@ On Twitter:
 * https://twitter.com/argo477
 * https://twitter.com/Sir_carma
 * https://twitter.com/marcoapc_art
+* https://twitter.com/DocteurZoidberg
 
-On Instagram:
-* 
+Plenty more on Instagram and Twitter - just search the hash tag #magicavoxel or #voxelart! 
 
 
