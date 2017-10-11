@@ -4,7 +4,7 @@ layout: post
 ---
 ### Table of Contents:
 0. [Introduction](index.md)
-1. [Learning MagicaVoxel](magicavoxel.md)
+1. [**Learning MagicaVoxel**](magicavoxel.md)
 2. [Learning A-Frame](aframe.md)
 3. [Resources](resources.md)
 
