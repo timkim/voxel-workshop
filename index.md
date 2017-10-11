@@ -27,4 +27,4 @@ Well look no further! In this workshop, we will go over how to make models in Ma
 - phonegap-magicavoxel-aframe-template
 
 ### Let's get started!
-Learning MagicaVoxel](magicavoxel.md)
+[Learning MagicaVoxel](magicavoxel.md)
