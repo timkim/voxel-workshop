@@ -24,7 +24,7 @@ More listed features at the [A-Frame website](https://aframe.io/docs/0.7.0/intro
 What I personally like about A-Frame is that it really simplifies the process of making WebVR sites. Without A-Frame, you would have to venture into the WebVR land and code scenes using [three.js](https://threejs.org/) or perhaps even just straight up [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API). This might be fine for those who are more well versed in coding 3D, but this is quite a daunting task for those looking to wet their feet. 
 
 ## Working with PhoneGap
-Since A-Frame is all web based, it works pretty well with PhoneGap! Aside from annoying CSP-issues, it should work out of the box fairly well. I haven't personally seen much outside of demos of A-Frame and PhoneGap, but perhaps one of you will change that. Let's see some VR apps made with PhoneGap, eh?
+Since A-Frame is all web based, it works pretty well with PhoneGap! Aside from some annoying CSP-issues, it should work out of the box fairly well. I haven't personally seen much outside of demos of A-Frame and PhoneGap, but perhaps one of you will change that. Let's see some VR apps made with PhoneGap, eh?
 
 In this workshop, we'll clone down the `phonegap-magicavoxel-aframe-template` that has a small premade A-Frame project ready to go. Once your models are ready to be viewed on your phone, we'll import them into the template and then use `phonegap serve` to connect our phones to the A-Frame project. 
 
@@ -71,10 +71,20 @@ $ phonegap serve
 
 Copy and paste the address where the server is listening into your browser. If all goes well, you should see your model rotating in the scene. 
 
+## Viewing your Model on your Phone
+* Make sure your phone isn't locked into protrait mode so we can view in landscape. 
+* Open up the PhoneGap Developer App on your phone and type in the address from the server. It should begin to extract the project and deploy onto your phone. 
+* ![Cardboard Icon](img/cardboard_icon.png "Cardboard Icon") Once it's loaded, hit the cardboard icon to launch into VR mode. 
+* Place your phone into one of the Google Cardboards and see your model in full 3D!
+
 ### Troubleshooting
 * If the model appears all white, then you need to make sure you copied over that `.png` file into your `www/models/`. 
 * If the model doesn't appear at all, use the A-Frame inspector to see if it actually exists in the scene. It might be too large or too small for you to see so you may need to scale the model accordingly. 
+* If you can't get the PhoneGap Developer App to connect, you can try opening up your browser on your phone and going to the address. 
 
+## Moving Forward
+That pretty much concludes this workshop. I hope you enjoyed learning how to make your own 3D assets and viewing them in WebVR on your phone! Here are some fun things to try:
 
-
-
+* Change the environment presets: `<a-entity environment="preset: tron;">` to any of these:
+* Change the animation of the scene by changing the `dur` or `to` in `<a-animation  attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>`
+* Add more models to your scene.
