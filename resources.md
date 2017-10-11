@@ -31,4 +31,6 @@ Try checking out these voxel artists.
 
 Plenty more on Instagram and Twitter - just search the hash tag #magicavoxel or #voxelart! 
 
-
+## Follow me!
+On twitter: [@timkim](https://twitter.com/timkim)
+On Instagram: [@timkimtimkim](https://www.instagram.com/timkimtimkim/)
