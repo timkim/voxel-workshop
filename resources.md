@@ -11,5 +11,20 @@ layout: post
 This workshop was primarily built on this doc: [https://aframe.io/docs/0.7.0/guides/building-with-magicavoxel.html](https://aframe.io/docs/0.7.0/guides/building-with-magicavoxel.html). And special thanks to [@ephtracy](https://twitter.com/ephtracy) for making such a fun tool to play with!
 
 ## Inspiration 
-Try checking out these voxel artists:
+Try checking out these voxel artists. 
+
+On Twitter:
+* https://twitter.com/y2bcrazy
+* https://twitter.com/Noxbird
+* https://twitter.com/HuntingFluff
+* https://twitter.com/armyoftrolls
+* https://twitter.com/Noxbird
+* https://twitter.com/gabriel_d_L
+* https://twitter.com/argo477
+* https://twitter.com/Sir_carma
+* https://twitter.com/marcoapc_art
+
+On Instagram:
+* 
+
 
