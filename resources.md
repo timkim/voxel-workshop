@@ -2,6 +2,11 @@
 title: "Resources"
 layout: post
 ---
+0. [Introduction](index.md)
+1. [Learning MagicaVoxel](magicavoxel.md)
+2. [Learning A-Frame](aframe.md)
+3. [Resources](resources.md)
+
 ## Resources
 * [MagicaVoxel's homepage: https://ephtracy.github.io/](https://ephtracy.github.io/)
 * [Mozilla A-Frame: https://aframe.io/](https://aframe.io/)

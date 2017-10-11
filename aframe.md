@@ -2,6 +2,10 @@
 title: "Exporting to WebVR Using Mozilla A-Frame"
 layout: post
 ---
+0. [Introduction](index.md)
+1. [Learning MagicaVoxel](magicavoxel.md)
+2. [Learning A-Frame](aframe.md)
+3. [Resources](resources.md)
 
 # What is A-Frame?
 ![A-Frame](img/aframe_inspector.png "A-Frame")
@@ -89,4 +93,5 @@ That pretty much concludes this workshop. I hope you enjoyed learning how to mak
 * Change the animation of the scene by changing the `dur` or `to` in `<a-animation  attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>`
 * Add more models to your scene.
 
+### Next up!
 [Resources](resources.md)

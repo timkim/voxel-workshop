@@ -2,6 +2,11 @@
 title: "Using MagicaVoxel"
 layout: post
 ---
+0. [Introduction](index.md)
+1. [Learning MagicaVoxel](magicavoxel.md)
+2. [Learning A-Frame](aframe.md)
+3. [Resources](resources.md)
+
 # What is MagicaVoxel?
 MagicaVoxel is a free 3D modeling software that is designed for ease of use and fun! Everything in MagicaVoxel is built out of cubes or voxels. Think pixel art but in 3D! No worrying about polygons, faces, vertices and textures. Stack your voxels upon another, change their colours, and make something cool!
 
@@ -72,4 +77,5 @@ You can manually type in the size of the scene in terms of how many voxel-units 
 
 When it finally comes time to view our model in WebVR. Click on the export button and export as **Obj**. Remember where you save these files as it will generate an `.obj`, `.mtl`, and a `.png`. You will need all three files!
 
+### Next up!
 [Learning A-Frame](aframe.md)
