@@ -88,3 +88,5 @@ That pretty much concludes this workshop. I hope you enjoyed learning how to mak
 * Change the environment presets: `<a-entity environment="preset: tron;">` to any of these:
 * Change the animation of the scene by changing the `dur` or `to` in `<a-animation  attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>`
 * Add more models to your scene.
+
+[Resources](resources.md)
